@@ -1,0 +1,355 @@
+body {
+  font-family: "Montserrat";
+  margin: 0;
+}
+
+/* glob */
+
+.flex {
+  display: flex;
+}
+
+.active {
+  display: block;
+}
+
+.inactive {
+  display: none;
+}
+
+/* fonts */
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Medium.woff2"),
+    url("../fonts/Montserrat-Medium.woff");
+  font-display: swap;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Bold.woff"),
+    url("../fonts/Montserrat-Bold.woff2");
+  font-display: swap;
+  font-weight: 700;
+}
+
+/* header */
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header__container {
+  align-items: center;
+  padding: 20px 50px 15px 20px;
+}
+
+.main-title {
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.sec-title {
+  margin: 0;
+  text-decoration: underline #295A62;
+  font-size: 30px;
+  margin-top: 120px;
+}
+
+.product-sections {
+  padding: 0;
+  list-style-type: none;
+  gap: 43px;
+}
+
+.item__btn {
+  border: 3px solid #34EEC3;
+  border-radius: 20px;
+  padding: 14px 35px;
+  background-color: inherit;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #333333;
+  transition: background 0.3s ease, color 0.2s linear;
+}
+
+.item__btn:hover {
+  background-color: #34EEC3;
+  color: #FFFFFF;
+}
+
+.item__btn:focus {
+  outline: none;
+  box-shadow: 0 0 5px #34EEC3;
+}
+
+.item__btn:active {
+  background-color: #34EEC3;
+  color: #FFFFFF;
+}
+
+.products__block-list {
+  padding: 0;
+  list-style-type: none;
+  flex-wrap: wrap;
+  column-gap: 70px;
+  row-gap: 110px;
+}
+
+.product__item {
+  width: 600px;
+  min-height: 350px;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+/* sneakers */
+
+.sneakers-1 {
+  background-image: url("../img/sneakers-easy.webp");
+  background-size: 600px 300px;
+}
+
+.sneakers-2 {
+  background-image: url("../img/Sneakers-2.webp");
+  background-size: 600px 300px;
+}
+
+.sneakers-3 {
+  background-image: url("../img/male-sneaker.jpg");
+  background-size: 400px 300px;
+}
+
+.sneakers-4 {
+  background-image: url("../img/male-shoe.webp");
+  background-size: 400px 300px;
+}
+
+.sneakers-5 {
+  background-image: url("../img/female-sneaker.jpg");
+  background-size: 500px 300px;
+  background-position: center;
+}
+
+.sneakers-6 {
+  background-image: url("../img/female-sneakers-2.webp");
+  background-size: 600px 300px;
+}
+
+.sneakers-7 {
+  background-image: url("../img/male-sneakers-2.webp");
+  background-size: 600px 300px;
+}
+
+.sneakers-8 {
+  background-image: url("../img/allbirds-sneakers.jpg");
+  background-size: 600px 300px;
+}
+
+.sneakers-9 {
+  background-image: url("../img/male-sneakers-shoe.webp");
+  background-size: 600px 300px;
+}
+
+.sneakers-10 {
+  background-image: url("../img/sneakers-easy.webp");
+  background-size: 600px 300px;
+}
+
+.buy-btn {
+  position: absolute;
+  top: 230px;
+  border: 2px solid #000;
+  background-color: inherit;
+  padding: 20px 45px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  transition: background 0.3s ease, color 0.2s linear;
+  margin: 0;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 150px;
+}
+
+.buy-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.buy-btn:focus {
+  background-color: #000;
+  color: #fff;
+}
+
+.buy-btn:active {
+  background-color: #fff;
+  color: #000;
+}
+
+.price {
+  position: absolute;
+  top: 95%;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 20px;
+  margin: 0;
+}
+
+/* shirts */
+
+.shirts-1 {
+  background-image: url("../img/Shirt-blue.webp");
+  background-position: center;
+  background-size: 500px;
+}
+
+.shirts-2 {
+  background-image: url("../img/children's_1.webp");
+  background-position: center;
+  background-size: 500px;
+}
+
+.shirts-3 {
+  background-image: url("../img/children's_2.jpeg");
+  background-position: center;
+  background-size: 500px;
+}
+
+.shirts-4 {
+  background-image: url("../img/children's_3.jpeg");
+  background-position: center;
+  background-size: 500px;
+}
+
+.shirts-5 {
+  background-image: url("../img/children's_4.jpeg");
+  background-position: center;
+  background-size: 500px;
+}
+
+.shirts-6 {
+  background-image: url("../img/female-shirts_1.jpeg");
+  background-position: center;
+  background-size: 300px 300px;
+}
+
+.shirts-7 {
+  background-image: url("../img/female-sport-shirts_2.webp");
+  background-position: center;
+  background-size: 500px;
+}
+
+.shirts-8 {
+  background-image: url("../img/male-shirts_2.jpeg");
+  background-position: center;
+  background-size: 500px;
+}
+
+.shirts-9 {
+  background-image: url("../img/male-shirts_3.jpeg");
+  background-position: center;
+  background-size: 500px;
+}
+
+.shirts-10 {
+  background-image: url("../img/male-sport_1.jpg");
+  background-position: center;
+  background-size: 500px;
+}
+
+.shirts-11 {
+  background-image: url("../img/female-sport-shirts_2.jpg");
+  background-position: center;
+  background-size: 500px;
+}
+
+.shirts-12 {
+  background-image: url("../img/female-sport-shirts_2.webp");
+  background-position: center;
+  background-size: 500px;
+}
+
+/* trousers */
+
+.trousers-1 {
+  background-image: url("../img/ch-Trousers_2.jpeg");
+  background-size: 470px 390px;
+  background-position: center;
+}
+
+.trousers-2 {
+  background-image: url("../img/ch-Trousers_1.jpg");
+  background-position: center;
+  background-size: 470px 390px;
+}
+
+.trousers-3 {
+  background-image: url("../img/ch-Trousers_3.jpg");
+  background-position: center;
+  background-size: 470px 390px;
+}
+
+.trousers-4 {
+  background-image: url("../img/ch-Trousers_4.jpg");
+  background-position: center;
+  background-size: 470px 390px;
+}
+
+.trousers-5 {
+  background-image: url("../img/ch-Trousers_5.jpg");
+  background-position: center;
+  background-size: 400px 350px;
+}
+
+.trousers-6 {
+  background-image: url("../img/Trousers_1.webp");
+  background-position: center;
+  background-size: 430px 350px;
+}
+
+.trousers-7 {
+  background-image: url("../img/Trousers_2.webp");
+  background-position: center;
+  background-size: 430px 350px;
+}
+
+.trousers-8 {
+  background-image: url("../img/Trousers_3.webp");
+  background-position: center;
+  background-size: 430px 350px;
+}
+
+.trousers-9 {
+  background-image: url("../img/Trousers_4.jpeg");
+  background-position: center;
+  background-size: 400px 350px;
+}
+
+
+.trousers-10 {
+  background-image: url("../img/Trousers_5.jpeg");
+  background-position: center;
+  background-size: 400px 400px;
+}
+
+
+.trousers-11 {
+  background-image: url("../img/Trousers_6.jpeg");
+  background-position: center;
+  background-size: 430px 350px;
+}
+
+
+.trousers-12 {
+  background-image: url("../img/Trousers_7.jpeg");
+  background-position: center;
+  background-size: 430px 350px;
+}
